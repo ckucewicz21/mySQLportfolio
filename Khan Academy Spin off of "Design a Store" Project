@@ -1,0 +1,4 @@
+CREATE TABLE books (id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, author TEXT, number_of_pages INTEGER,  quantity INTEGER, price INTEGER);  
+INSERT INTO books(title, author, number_of_pages, quantity, price) VALUES ("Mathematical Mindsets", "Boaler", 150, 5, 15); 
+INSERT INTO books(title, author, number_of_pages, quantity, price) VALUES ("Infinite Powers", "Strogatz", 350, 7, 20);  
+INSERT INTO books(title, author, number_of_pages, quantity, price) VALUES ("Ball Four", "Bouton", 495, 10, 25); SELECT * FROM books;
